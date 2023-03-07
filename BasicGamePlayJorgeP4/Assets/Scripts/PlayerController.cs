@@ -11,8 +11,17 @@ public class PlayerController : MonoBehaviour
     }
 
     public float xRange = 10;
+    public float horizontalInput;
+    public float speed = 10.0f;
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //Launch porjectile from the player
+            Instantiate(projectilePrefab, transform.position, porjectilePrefab.transform.rotation);
+        }
+        horizontalInput = Input.GetAxis("Horizontal");
+        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
         // keep player in bounds
         if (transform.position.x < -xRange)
         {

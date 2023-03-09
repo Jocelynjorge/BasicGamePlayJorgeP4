@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7631990511337881068}
   - component: {fileID: 7631990511336829526}
   - component: {fileID: 7631990512794935279}
+  - component: {fileID: 255745777653888575}
   m_Layer: 0
   m_Name: Food_Organic_Carrot
   m_TagString: Untagged
@@ -97,3 +98,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &255745777653888575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7631990511334800404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa0f96bf9a9bf6a469155423bba8b3d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

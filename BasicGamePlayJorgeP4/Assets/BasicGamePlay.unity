@@ -492,7 +492,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -858,6 +858,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3863914161640439749, guid: feca3adcfb20ed64b91656953ac8261c, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5101467128871187050, guid: feca3adcfb20ed64b91656953ac8261c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -984,6 +988,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5642732362164101207, guid: 82e8a43d5c18bd5479b3a173a340ae1d, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7836803158256912743, guid: 82e8a43d5c18bd5479b3a173a340ae1d, type: 3}
       propertyPath: m_Name
       value: Horse
@@ -1041,6 +1049,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5899162277694141162, guid: b57d14086eaba8445b182551a316ee01, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8986948209591649845, guid: b57d14086eaba8445b182551a316ee01, type: 3}
       propertyPath: m_Name
       value: ' Cow'
